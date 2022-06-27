@@ -44,38 +44,39 @@ body {
     background-size: 110%;
     background-position: center center;
     background-repeat: no-repeat;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 
 .Bio{
     grid-area: b;
-    border: 3px solid black;
+    border: 0.3vw  solid black;
     background-color: #ffffff;
+    font-size: 1.5vw;
     text-align: center;
 }
 
 .CV{
     grid-area: c;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw  solid black;
 }
 
 .GITHUB{
     grid-area: d;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw  solid black;
 }
 
 .LINKEDIN{
     grid-area: e;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw  solid black;
 }
 
 .Contact{
     grid-area: f;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw  solid black;
 }
 
 .button {
@@ -123,27 +124,27 @@ body {
 .Project-1{
     grid-area: h;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 
 .Project-2{
     aspect-ratio: 1/1;
     grid-area: i;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 
 .Project-3{
     grid-area: j;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 
 .Project-4{
     aspect-ratio: 1/1;
     grid-area: k;
     background-color: #ffffff;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 
 
