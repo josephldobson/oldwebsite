@@ -4,6 +4,10 @@ h1 {
     font-family: Pixel
 }
 
+body {
+    background-color: #b6c4ee;
+}
+
 #canvas1 {
     position: absolute;
     width: 100%;
@@ -15,10 +19,8 @@ h1 {
 
 .title {
     text-align:center;
-    margin-top: 100px;
-    margin-bottom:100px;
-    font-size: 8.5vw;
-    width: 70%;
+    font-size: 11vw;
+    width: 100%;
     margin:0 auto;
 }
 
@@ -26,60 +28,70 @@ h1 {
 .wrapper {
     display: grid;
     margin:0 auto;
-    width:70%;
+    width:85%;
+    grid-gap:0.5%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "a b b c"
                          "d e e e"
                          "f g h i";
 }
 .Profile {
-    width: 100%;
-    height: 100%;
-    background-size: 100%;
+    aspect-ratio: 1/1;
+    background-size: 110%;
     background-position: center center;
     background-repeat: no-repeat;
+    border: 3px solid black;
 }
 
 .Bio{
     grid-area: b;
-    background-color: #b0b0b0;
+    border: 3px solid black;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 .Contact{
     grid-area: c;
     aspect-ratio: 1/1;
-    background-color: #7e7e7e;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-1{
     aspect-ratio: 1/1;
     grid-area: d;
-    background-color: #cecece;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-2{
     grid-area: e;
-    background-color: #3b3b3b;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-3{
     aspect-ratio: 1/1;
     grid-area: f;
-    background-color: #cecece;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-4{
     grid-area: g;
-    background-color: #3b3b3b;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-5{
     aspect-ratio: 1/1;
     grid-area: h;
-    background-color: #cecece;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
 
 .Project-6{
     grid-area: i;
-    background-color: #3b3b3b;
+    background-color: #ffffff;
+    border: 3px solid black;
 }
