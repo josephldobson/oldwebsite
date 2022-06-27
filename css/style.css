@@ -1,4 +1,5 @@
 @font-face { font-family: Pixel; src: url('../Fonts/VCR_OSD_MONO.ttf'); }
+
 h1 {
     font-family: Pixel
 }
@@ -16,37 +17,50 @@ h1 {
     text-align:center;
     margin-top: 100px;
     margin-bottom:100px;
-    font-size: 9vw;
+    font-size: 8.5vw;
     width: 70%;
     margin:0 auto;
 }
 
 
 .wrapper {
-    margin:0 auto;
-    width:70%;
     display: grid;
+    margin:0 auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    width:70%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b b c"
+                         "d e . .";
+}
+.Profile {
+    grid-area: a;
+    aspect-ratio: 1/1;
 }
 
-.Profile {
-    background-color: red;
+.Profileimg {
+    width:100%;
 }
 
 .Bio{
-    background-color: green;
+    grid-area: b;
+    background-color: #7E7E7EFF;
 }
 
-
-.CV{
-    background-color: blue;
+.Contact{
+    grid-area: c;
+    aspect-ratio: 1/1;
+    background-color: #7e7e7e;
 }
 
 .Project-1{
-    background-color: #DDDDDD;
+    grid-area: d;
+    aspect-ratio: 1/1;
+    background-color: #7E7E7EFF;
 }
 
 .Project-2{
-
-    background-color: yellow;
+    grid-area: e;
+    aspect-ratio: 1/1;
+    background-color: #7E7E7EFF;
 }
