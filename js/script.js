@@ -20,8 +20,8 @@ canvas.addEventListener('click',function(event){
 })
 
 function drawCircle(){
-    ctx.fillStyle = 'light blue';
+    ctx.fillStyle = 'Black';
     ctx.beginPath();
-    ctx.arc(mouse.x,mouse.y,canvas.width/20,0,Math.PI * 2);
+    ctx.arc(mouse.x,mouse.y,(canvas.width/40 + Math.random()),0,Math.PI * 2);
     ctx.fill();
 }

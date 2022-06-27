@@ -1,0 +1,52 @@
+@font-face { font-family: Pixel; src: url('../Fonts/VCR_OSD_MONO.ttf'); }
+h1 {
+    font-family: Pixel
+}
+
+#canvas1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.title {
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom:100px;
+    font-size: 9vw;
+    width: 70%;
+    margin:0 auto;
+}
+
+
+.wrapper {
+    margin:0 auto;
+    width:70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Profile {
+    background-color: red;
+}
+
+.Bio{
+    background-color: green;
+}
+
+
+.CV{
+    background-color: blue;
+}
+
+.Project-1{
+    background-color: #DDDDDD;
+}
+
+.Project-2{
+
+    background-color: yellow;
+}
