@@ -38,7 +38,7 @@ body {
                          "a b b f"
                          "g h i j"
                          "k l m n";
-    margin-bottom: 100px;
+    margin-bottom: 100%;
 }
 .Profile {
     grid-area: a;
@@ -130,7 +130,8 @@ body {
     grid-area: g;
     background-color: #deffba;
     border: 0.3vw solid black;
-    font-size: 4vw;
+    font-size: 2vw;
+    text-align:center;
 }
 
 .Project-1{
@@ -138,6 +139,7 @@ body {
     grid-area: h;
     background-color: #ffffff;
     border: 0.3vw solid black;
+
 }
 
 .Project-2{
@@ -149,33 +151,6 @@ body {
 .Project-3{
     aspect-ratio: 1/1;
     grid-area: j;
-    background-color: #ffffff;
-    border: 0.3vw solid black;
-}
-
-.Project-4{
-    aspect-ratio: 1/1;
-    grid-area: k;
-    background-color: #ffffff;
-    border: 0.3vw solid black;
-}
-
-.Project-5{
-    grid-area: l;
-    background-color: #ffffff;
-    border: 0.3vw solid black;
-}
-
-.Project-6{
-    aspect-ratio: 1/1;
-    grid-area: m;
-    background-color: #ffffff;
-    border: 0.3vw solid black;
-}
-
-.Project-7{
-    aspect-ratio: 1/1;
-    grid-area: n;
     background-color: #ffffff;
     border: 0.3vw solid black;
 }
