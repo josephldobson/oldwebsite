@@ -12,50 +12,51 @@
 
 <body>
 
-<canvas id="canvas1"></canvas>
-<script src="js/script.js"></script>
 
-<h1 class="title">JOSEPH DOBSON</h1>
+<h1 id="title">JOSEPH DOBSON</h1>
 
 <!--TILES-->
 <div class="wrapper">
-    <div class="Profile" style="background-image: url('photos/Profile.jpeg');"> </div>
+    <div id="Profile" style="background-image: url('photos/Profile.jpeg');"> </div>
 
-    <div class="Bio">
+    <div id="Bio">
         <h3> Hello there! </h3>
         <p>I'm a third year mathematics student at Durham University with interests in
             Quantum Computing, and Probability.</p>
         <p>When I'm not studying you'll find me bouldering and learning languages!</p>
     </div>
 
-    <div class="CV">
+    <div id="CV">
         <button class="button button1" onclick=" window.open('files/JosephDobsonCV.pdf')"> CV</button>
     </div>
 
-    <div class="GITHUB">
+    <div id="GITHUB">
         <button class="button button2" onclick=" window.open('https://github.com/josephldobson')"> GITHUB</button>
     </div>
 
-    <div class="LINKEDIN">
+    <div id="LINKEDIN">
         <button class="button button3" onclick=" window.open('https://www.linkedin.com/in/joseph-dobson-/')"> LINKEDIN</button>
     </div>
 
-    <div class="Contact">
+    <div id="Contact">
         <button class="button button4" onclick=" window.open('mailto:josephliamdobson@gmail.com')"> EMAIL</button>
     </div>
 
-    <div class="tutoring">
+    <div id="tutoring">
         <h3 id="foo1"> TUTORING </h3>
         <p>
             I offer Mathematics tutoring at all levels for £30 an hour, get in contact above!
         </p>
     </div>
-    <div class="Project-1">Project
+    <div id="Graphic">
+        <canvas id="graphic-1"></canvas>
     </div>
-    <div class="Project-2">Project</div>
-    <div class="Project-3">Project</div>
+    <div id="Project-1">Project</div>
+    <div id="Project-2">Project</div>
+    <div id="Project-3">Project</div>
 
 </div>
 
 </body>
+<script src="js/graphic.js"></script>
 </html>

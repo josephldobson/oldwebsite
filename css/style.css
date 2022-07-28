@@ -18,7 +18,7 @@ body {
     z-index: -1;
 }
 
-.title {
+#title {
     text-align:center;
     font-size: 11vw;
     width: 100%;
@@ -36,11 +36,11 @@ body {
                          "a b b d"
                          "a b b e"
                          "a b b f"
-                         "g h i j"
-                         "k l m n";
-    margin-bottom: 100%;
+                         "g h h j"
+                         "k h h n";
+    margin-bottom: 10%;
 }
-.Profile {
+#Profile {
     grid-area: a;
     aspect-ratio: 1/1;
     background-size: 110%;
@@ -49,7 +49,7 @@ body {
     border: 0.3vw solid black;
 }
 
-.Bio{
+#Bio{
     grid-area: b;
     border: 0.3vw  solid black;
     background-color: #ffffff;
@@ -61,25 +61,25 @@ body {
     padding-left: 1%;
 }
 
-.CV{
+#CV{
     grid-area: c;
     background-color: #ffffff;
     border: 0.3vw  solid black;
 }
 
-.GITHUB{
+#GITHUB{
     grid-area: d;
     background-color: #ffffff;
     border: 0.3vw  solid black;
 }
 
-.LINKEDIN{
+#LINKEDIN{
     grid-area: e;
     background-color: #ffffff;
     border: 0.3vw  solid black;
 }
 
-.Contact{
+#Contact{
     grid-area: f;
     background-color: #ffffff;
     border: 0.3vw  solid black;
@@ -126,7 +126,7 @@ body {
     color: white;
 }
 
-.tutoring{
+#tutoring{
     grid-area: g;
     background-color: #deffba;
     border: 0.3vw solid black;
@@ -134,23 +134,33 @@ body {
     text-align:center;
 }
 
-.Project-1{
-    aspect-ratio: 1/1;
+#Graphic {
     grid-area: h;
-    background-color: #ffffff;
-    border: 0.3vw solid black;
-
+    position: relative;
 }
 
-.Project-2{
-    grid-area: i;
+#graphic-1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#Project-1{
+    grid-area: k;
     background-color: #ffffff;
     border: 0.3vw solid black;
 }
 
-.Project-3{
+#Project-2{
     aspect-ratio: 1/1;
     grid-area: j;
+    background-color: #ffffff;
+    border: 0.3vw solid black;
+}
+
+#Project-3{
+    aspect-ratio: 1/1;
+    grid-area: n;
     background-color: #ffffff;
     border: 0.3vw solid black;
 }
